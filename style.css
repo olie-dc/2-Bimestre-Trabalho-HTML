@@ -22,12 +22,95 @@ body {
   display: block;
 }
 
-.sidenav a:hover {
-  color: #f1f1f1;
+/* Estilos para o menu lateral */
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  padding-top: 60px;
+  transition: 0.5s;
 }
 
+/* Estilos para o conteúdo principal */
 .main {
-  margin-left: 200px; /* Same as the width of the sidenav */
+  margin-left: 250px;
+  padding: 20px;
+}
+
+/* Estilos para o cabeçalho */
+header {
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #f2f2f2;
+  padding: 0px;
+  border-bottom: 1px solid #ccc;
+  z-index: 1000; /* Garante que o cabeçalho esteja acima do conteúdo principal */
+  text-align: center;
+}
+
+header h1 {
+  margin: 0;
+}
+
+header nav {
+  margin-top: 10px;
+}
+
+header nav a {
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+/* Estilos para o conteúdo principal */
+main {
+  margin-left: 300px;
+  padding: 20px;
+}
+
+/* Estilos para as seções */
+section {
+  margin-bottom: 20px;
+}
+
+/* Estilos para o código HTML */
+pre {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ccc;
+  overflow-x: auto;
+}
+
+pre code {
+  display: block;
+  white-space: pre;
+}
+
+/* Estilos para o código HTML implementado */
+div {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ccc;
+  overflow-x: auto;
+}
+
+div code {
+  display: block;
+  white-space: pre;
+}
+
+footer {
+  background-color: #333; 
+  color: #fff; 
+  padding: 5px; 
+  text-align: center; 
+  position: relative;
+  bottom: 0; 
+  width: 100%; 
 }
 
 @media screen and (max-height: 450px) {
