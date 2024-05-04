@@ -1,59 +1,82 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <div class="nav">
+    <a href="basic.html">HTML Basic</a>
+    <a href="elements.html">HTML Elements</a>
+    <a href="attributes.html">HTML  Attributes</a>
+    <a href="headings.html">HTML Headings</a>
+    <a href="paragraphs.html">HTML Paragraphs</a>
+    <a href="styles.html">HTML Styles</a>
+    <a href="formatting.html">HTML Formatting</a>
+    <a href="quotations.html">HTML Quotations</a>
+    <a href="comments.html">HTML Comments</a>
+    <a href="colors.html">HTML Colors</a>
+    <a href="links.html">HTML Links</a>
+    <a href="favicon.html">HTML Favicon</a>
+    <a href="table.html">HTML Table</a>
+    <a href="list.html">HTML List</a>
+    <a href="block-inline.html">HTML Block & Inline</a>
+    <a href="div.html">HTML Div</a>
+    <a href="classes.html">HTML Classes</a>
+    <a href="id.html">HTML Id</a>
+    <a href="iframes.html">HTML Iframes</a>
+    <a href="javascript.html">HTML JavaScript</a>
+    <a href="semantics.html">HTML Semantics</a>
+    <a href="guide.html">HTML Style Guide</a>
+    <a href="entities.html">HTML Entities</a>
+    <a href="symbols.html">HTML Symbols</a>
+    <a href="emojis.html">HTML Emojis</a>
+    <a href="charsets.html">HTML Charsets</a>
+    <a href="url-encode.html">HTML URL Encode</a>
+    <a href="htmlVSxhtml.html">HTML vs XHTML</a>
+    <a href="forms.html">HTML Forms</a>
+    <a href="form-attributes.html">HTML Form Attributes</a>
+    <a href="form-elements.html">HTML Form Elements</a>
+    <a href="input-types.html">HTML Input Types</a>
+    <a href="input-attributes.html">HTML Input Attributes</a>
+    <a href="form-input-attributes.html">Input Form Attributes</a>
+    <a href="canvas.html">HTML Canvas</a>
+    <a href="svg.html">HTML SVG</a>
+    <a href="drag-drop.html">HTML Drag/Drop</a>
+    <a href="audio.html">HTML Audio</a>
+    <a href="media.html">HTML Media</a>
+    <a href="video.html">HTML Video</a>
+    <a href="audio.html">HTML Audio</a>
+    <a href="drag-drop.html">HTML Drag/Drop</a>
+  </div>
+  
+  <header>
+    <h1>HTML Audio</h1>
+</header>
 
-<div class="sidenav">
-  <a href="#">Home</a>
-  <a href="basic.html">HTML Basic</a>
-  <a href="elements.html">HTML Elements</a>
-  <a href="attributes.html">HTML  Attributes</a>
-  <a href="headings.html">HTML Headings</a>
-  <a href="paragraphs.html">HTML Paragraphs</a>
-  <a href="styles.html">HTML Styles</a>
-  <a href="formatting.html">HTML Formatting</a>
-  <a href="quotations.html">HTML Quotations</a>
-  <a href="comments.html">HTML Comments</a>
-  <a href="colors.html">HTML Colors</a>
-  <a href="links.html">HTML Links</a>
-  <a href="favicon.html">HTML Favicon</a>
-  <a href="table.html">HTML Table</a>
-  <a href="list.html">HTML List</a>
-  <a href="block-inline.html">HTML Block & Inline</a>
-  <a href="div.html">HTML Div</a>
-  <a href="classes.html">HTML Classes</a>
-  <a href="id.html">HTML Id</a>
-  <a href="iframes.html">HTML Iframes</a>
-  <a href="javascript.html">HTML JavaScript</a>
-  <a href="semantics.html">HTML Semantics</a>
-  <a href="guide.html">HTML Style Guide</a>
-  <a href="entities.html">HTML Entities</a>
-  <a href="symbols.html">HTML Symbols</a>
-  <a href="emojis.html">HTML Emojis</a>
-  <a href="charsets.html">HTML Charsets</a>
-  <a href="url-encode.html">HTML URL Encode</a>
-  <a href="htmlVSxhtml.html">HTML vs XHTML</a>
-  <a href="forms.html">HTML Forms</a>
-  <a href="form-attributes.html">HTML Form Attributes</a>
-  <a href="form-elements.html">HTML Form Elements</a>
-  <a href="input-types.html">HTML Input Types</a>
-  <a href="input-attributes.html">HTML Input Attributes</a>
-  <a href="form-input-attributes.html">Input Form Attributes</a>
-  <a href="canvas.html">HTML Canvas</a>
-  <a href="svg.html">HTML SVG</a>
-  <a href="media.html">HTML Media</a>
-  <a href="video.html">HTML Video</a>
-  <a href="audio.html">HTML Audio</a>
-  <a href="drag-drop.html">HTML Drag/Drop</a>
-</div>
+<main>
+    <section id="section">
+        <h2>O que é a Tag HTML Audio?</h2>
+        <p>A tag HTML `<audio>` é usada para incorporar conteúdo de áudio em uma página da web. Ela permite que você reproduza áudio diretamente na página, oferecendo controles de reprodução padrão, como play, pause, volume e outros.</p>
 
-<div class="main">
-  <h2>Sidenav Example</h2>
-  <p>This sidenav is always shown.</p>
-</div>
-   
+        <h2>Exemplo de Uso da Tag Audio</h2>
+        <p>Aqui está um exemplo simples de uso da tag `<audio>` em HTML:</p>
+        <pre>
+          <code>
+            &lt;audio controls&gt;
+                &lt;source src="audio.mp3" type="audio/mpeg"&gt;
+            &lt;/audio&gt;
+          </code>
+        </pre>
+
+        <h2>HTML Implementado na Própria Página</h2>
+        <p>Aqui está o código HTML acima implementado na própria página:</p>
+        <audio controls>
+            <source src="audio.mp3" type="audio/mpeg">
+        </audio>
+    </section>
+</main>
 </body>
-</html> 
+</html>
