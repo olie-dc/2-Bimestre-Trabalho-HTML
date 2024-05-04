@@ -8,7 +8,7 @@ HTML, que significa Hypertext Markup Language, é a linguagem padrão utilizada 
 
 ℹ️ **Como Acessar**
 
-Para acessar o site, basta clicar [aqui](link_do_seu_site).
+Para acessar o site, basta clicar [aqui](https://2-bimestre-trabalho-html-git-main-olie-dcs-projects.vercel.app/basic.html).
 
 
 ## 📝 Autor
