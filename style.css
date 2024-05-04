@@ -2,7 +2,7 @@ body {
   font-family: "Lato", sans-serif;
 }
 
-.sidenav {
+.nav {
   height: 100%;
   width: 200px;
   position: fixed;
@@ -14,16 +14,16 @@ body {
   padding-top: 20px;
 }
 
-.sidenav a {
+.nav a {
   padding: 6px 6px 6px 32px;
   text-decoration: none;
-  font-size: 15px;
+  font-size: 20px;
   color: #818181;
   display: block;
 }
 
 /* Estilos para o menu lateral */
-.sidenav {
+.nav {
   height: 100%;
   width: 250px;
   position: fixed;
@@ -114,6 +114,6 @@ footer {
 }
 
 @media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
+  .nav {padding-top: 15px;}
+  .nav a {font-size: 18px;}
 }

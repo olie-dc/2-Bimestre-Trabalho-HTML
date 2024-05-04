@@ -1,59 +1,134 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <div class="nav">
+        <a href="basic.html">HTML Basic</a>
+        <a href="elements.html">HTML Elements</a>
+        <a href="attributes.html">HTML  Attributes</a>
+        <a href="headings.html">HTML Headings</a>
+        <a href="paragraphs.html">HTML Paragraphs</a>
+        <a href="styles.html">HTML Styles</a>
+        <a href="formatting.html">HTML Formatting</a>
+        <a href="quotations.html">HTML Quotations</a>
+        <a href="comments.html">HTML Comments</a>
+        <a href="colors.html">HTML Colors</a>
+        <a href="links.html">HTML Links</a>
+        <a href="favicon.html">HTML Favicon</a>
+        <a href="table.html">HTML Table</a>
+        <a href="list.html">HTML List</a>
+        <a href="block-inline.html">HTML Block & Inline</a>
+        <a href="div.html">HTML Div</a>
+        <a href="classes.html">HTML Classes</a>
+        <a href="id.html">HTML Id</a>
+        <a href="iframes.html">HTML Iframes</a>
+        <a href="javascript.html">HTML JavaScript</a>
+        <a href="semantics.html">HTML Semantics</a>
+        <a href="guide.html">HTML Style Guide</a>
+        <a href="entities.html">HTML Entities</a>
+        <a href="symbols.html">HTML Symbols</a>
+        <a href="emojis.html">HTML Emojis</a>
+        <a href="charsets.html">HTML Charsets</a>
+        <a href="url-encode.html">HTML URL Encode</a>
+        <a href="htmlVSxhtml.html">HTML vs XHTML</a>
+        <a href="forms.html">HTML Forms</a>
+        <a href="form-attributes.html">HTML Form Attributes</a>
+        <a href="form-elements.html">HTML Form Elements</a>
+        <a href="input-types.html">HTML Input Types</a>
+        <a href="input-attributes.html">HTML Input Attributes</a>
+        <a href="form-input-attributes.html">Input Form Attributes</a>
+        <a href="canvas.html">HTML Canvas</a>
+        <a href="svg.html">HTML SVG</a>
+        <a href="drag-drop.html">HTML Drag/Drop</a>
+        <a href="audio.html">HTML Audio</a>
+        <a href="media.html">HTML Media</a>
+        <a href="video.html">HTML Video</a>
+        <a href="audio.html">HTML Audio</a>
+        <a href="drag-drop.html">HTML Drag/Drop</a>
+      </div>
+  
+  <header>
+    <h1>HTML Semantics</h1>
+</header>
 
-<div class="sidenav">
-  <a href="#">Home</a>
-  <a href="basic.html">HTML Basic</a>
-  <a href="elements.html">HTML Elements</a>
-  <a href="attributes.html">HTML  Attributes</a>
-  <a href="headings.html">HTML Headings</a>
-  <a href="paragraphs.html">HTML Paragraphs</a>
-  <a href="styles.html">HTML Styles</a>
-  <a href="formatting.html">HTML Formatting</a>
-  <a href="quotations.html">HTML Quotations</a>
-  <a href="comments.html">HTML Comments</a>
-  <a href="colors.html">HTML Colors</a>
-  <a href="links.html">HTML Links</a>
-  <a href="favicon.html">HTML Favicon</a>
-  <a href="table.html">HTML Table</a>
-  <a href="list.html">HTML List</a>
-  <a href="block-inline.html">HTML Block & Inline</a>
-  <a href="div.html">HTML Div</a>
-  <a href="classes.html">HTML Classes</a>
-  <a href="id.html">HTML Id</a>
-  <a href="iframes.html">HTML Iframes</a>
-  <a href="javascript.html">HTML JavaScript</a>
-  <a href="semantics.html">HTML Semantics</a>
-  <a href="guide.html">HTML Style Guide</a>
-  <a href="entities.html">HTML Entities</a>
-  <a href="symbols.html">HTML Symbols</a>
-  <a href="emojis.html">HTML Emojis</a>
-  <a href="charsets.html">HTML Charsets</a>
-  <a href="url-encode.html">HTML URL Encode</a>
-  <a href="htmlVSxhtml.html">HTML vs XHTML</a>
-  <a href="forms.html">HTML Forms</a>
-  <a href="form-attributes.html">HTML Form Attributes</a>
-  <a href="form-elements.html">HTML Form Elements</a>
-  <a href="input-types.html">HTML Input Types</a>
-  <a href="input-attributes.html">HTML Input Attributes</a>
-  <a href="form-input-attributes.html">Input Form Attributes</a>
-  <a href="canvas.html">HTML Canvas</a>
-  <a href="svg.html">HTML SVG</a>
-  <a href="media.html">HTML Media</a>
-  <a href="video.html">HTML Video</a>
-  <a href="audio.html">HTML Audio</a>
-  <a href="drag-drop.html">HTML Drag/Drop</a>
-</div>
+<main>
+    <section id="section">
+        <h2>O que é Semântica em HTML?</h2>
+        <p>A semântica em HTML refere-se à utilização apropriada de elementos HTML para descrever corretamente o significado e a estrutura do conteúdo de uma página web. Ela melhora a acessibilidade, usabilidade e SEO (Search Engine Optimization) do site.</p>
 
-<div class="main">
-  <h2>Sidenav Example</h2>
-  <p>This sidenav is always shown.</p>
-</div>
-   
+        <h2>Exemplo de Uso de Semântica em HTML</h2>
+        <p>Aqui está um exemplo simples de como a semântica pode ser usada em uma página HTML:</p>
+        <pre>
+          <code>
+            &lt;header&gt;
+                &lt;h1&gt;Título do Site&lt;/h1&gt;
+                &lt;nav&gt;
+                    &lt;a href="#home"&gt;Home&lt;/a&gt;
+                    &lt;a href="#about"&gt;Sobre&lt;/a&gt;
+                    &lt;a href="#contact"&gt;Contato&lt;/a&gt;
+                &lt;/nav&gt;
+            &lt;/header&gt;
+
+            &lt;main&gt;
+                &lt;section id="home"&gt;
+                    &lt;h2&gt;Seção Inicial&lt;/h2&gt;
+                    &lt;p&gt;Bem-vindo à nossa página inicial.&lt;/p&gt;
+                &lt;/section&gt;
+
+                &lt;section id="about"&gt;
+                    &lt;h2&gt;Sobre Nós&lt;/h2&gt;
+                    &lt;p&gt;Saiba mais sobre nossa empresa.&lt;/p&gt;
+                &lt;/section&gt;
+
+                &lt;section id="contact"&gt;
+                    &lt;h2&gt;Contato&lt;/h2&gt;
+                    &lt;p&gt;Entre em contato conosco.&lt;/p&gt;
+                &lt;/section&gt;
+            &lt;/main&gt;
+
+            &lt;footer&gt;
+                &lt;p&gt;© 2024 Nome da Empresa&lt;/p&gt;
+            &lt;/footer&gt;
+          </code>
+        </pre>
+
+        <h2>HTML implementado na própria página</h2>
+        <p>Aqui está o código HTML acima implementado na própria página:</p>
+        <header>
+            <h1>Título do Site</h1>
+            <nav>
+                <a href="#home">Home</a>
+                <a href="#about">Sobre</a>
+                <a href="#contact">Contato</a>
+            </nav>
+        </header>
+
+        <main>
+            <section id="home">
+                <h2>Seção Inicial</h2>
+                <p>Bem-vindo à nossa página inicial.</p>
+            </section>
+
+            <section id="about">
+                <h2>Sobre Nós</h2>
+                <p>Saiba mais sobre nossa empresa.</p>
+            </section>
+
+            <section id="contact">
+                <h2>Contato</h2>
+                <p>Entre em contato conosco.</p>
+            </section>
+        </main>
+
+        <footer>
+            <p>© 2024 Nome da Empresa</p>
+        </footer>
+    </section>
+</main>
 </body>
-</html> 
+</html>
